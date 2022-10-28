@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+#root {
+  align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-elements {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-fields {
+  background-color: lightgray;
+  padding: 30px 15px;
+}
+
+table,tr,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-top: 50px;
+}
+
+input {
+  width: 300px !important;
+  margin: 15px 0 !important;
+}
+
+button {
+  margin-top: 20px !important;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+form {
+  display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dd {
+  background: cornflowerblue;
+  width: 400px;
+  margin: 40px 0;
+}
